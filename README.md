@@ -28,3 +28,4 @@
 -	numpy
 -	cv2 (opencv)
 -	time
+- serial
