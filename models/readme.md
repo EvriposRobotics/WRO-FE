@@ -1,6 +1,8 @@
-This is the 3D model of our vehicle.
-Objects in orange color are the microcontrollers-sensors-motors that must be placed on the 3D printed model. We 3D printed our model using PLA plastic.
-At the back axle we used an old RC car motor-differential-case system as the driving motor, so we designed a special mount for our case. 
+Αυτό είναι το τρισδιάστατο μοντέλο του οχήματός μας.
+Τα αντικείμενα που φαίνονται σε πορτοκαλί χρώμα είναι τα διάφορα ηλεκτρομηχανικά στοιχεία που συνδέονται στο σασί. Οι συνδέσεις γίνονται με βίδες m3. Εξαιρείται η κάμερα και όλες οι πλακέτες- μικροελεγκτές που συνδέονται στις επάνω οριζόντια επιφάνεια που χρειάζονται βίδες m2.
+Το μοντέλο μας εκτυπώθηκε σε 3d εκτυπωτή με πλαστικό υλικό τύπου PLA σε ανάλυση 0.2mm.
 
+Για την κίνηση του οχήματός μας χρησιμοποιήσαμε στον πίσω άξονα το διαφορικό και τον dc κινητήρα μέσα στο περίβλημά τους, από παλιό τηλεκατευθυνόμε όχημα μάρκας NIKKO και κλίμακας 1:14. Έτσι χρειάστηκε να σχεδιάσουμε ειδικό σύνδεσμο για αυτά.
 
-3D model tinkdercad link: https://www.tinkercad.com/things/9yAMq0pSZNL?sharecode=_sXb9rJrZYVs0klc9q9PT7ya_PedQpo5IxWunlhXSu0
+Ο σύνδεσμος με το τρισιδάστατο μοντέλο του οχήματος είναι:
+3D model tinkdercad link:  https://www.tinkercad.com/things/9yAMq0pSZNL?sharecode=_sXb9rJrZYVs0klc9q9PT7ya_PedQpo5IxWunlhXSu0
