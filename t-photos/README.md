@@ -1,4 +1,3 @@
-Team's photos
-====
+2 Ομαδικές φωτογραφίες
 
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+1 κανονική και 1 αστεία φωτογραφία
