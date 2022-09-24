@@ -1,4 +1,10 @@
-Electromechanical diagrams
-====
+Ηλεκτρομηχανικό σχέδιο
 
-This directory must contain one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+Στην εικόνα φαίνονται οι συνδέσεις που πρέπει να γίνουν μεταξύ των ηλεκτρομηχανικών στοιχείων του ρομπότ
+
+Με γκρι χρώμα φαίνονται τα καλώδια τύπου usb.
+Με μωβ χρώμα φαίνεται η δύνδεση της κάμερας με το raspberry pi 3 με ειδικό καλώδιο τύπου CSI το οποίο συνδέεται στην ανάλογη θύρα του raspberry pi.
+
+Με κόκκινο χρώμα φαίνονται οι συνδέσεις σε τάση ενώ με μαύρο οι συνδέσεις σε γείωση.
+
+Με μπλε και πράσινο χρώμα φαίνονται οι συνδέσεις στις ψηφιακές και στις αναλογικές θύρες του arduino.
