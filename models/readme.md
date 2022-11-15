@@ -1,7 +1,7 @@
 **3D model of our vehicle**
 
 For the 3D model of the robotic vehicle our team designed we provide a Tinkercad link:
-https://www.tinkercad.com/things/9yAMq0pSZNL?sharecode=_sXb9rJrZYVs0klc9q9PT7ya_PedQpo5IxWunlhXSu0
+https://www.tinkercad.com/things/9yAMq0pSZNL
 
 All the 3d design has been made using the online 3D modelling tool www.tinkercad.com.
 
