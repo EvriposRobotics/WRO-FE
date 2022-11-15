@@ -6,9 +6,8 @@ The robot consists of a chassis that is entirely designed by our team, excluding
 The chassis was 3D printed using the "Creality Ender 3 v2" and "Anet A6" printers with the use of PLA type plastic. Some sanding may need after 3D printing on some parts in order to have a perfect fit with others parts or to rotate freely depending on the case.
 
 Not printed parts are:
-  •	Τhe wheels rotation axles, which are LEGO axles. On the front wheels, 2 LEGO axles with a length of 39mm have been used using a clamp (LEGO bush) on each wheel. For the    rear wheels we used 2 LEGO axles of 72mm length. A small amount of silicone-teflon type lubricating grease has been placed at each friction-contact point of the axles      with other components.
-  •	One rubber O-ring on each wheel, outer diameter 68mm and thickness 5mm. It is critical that the o-rings are of a good quality in order to have a good grip with the 
-   track.
+- Τhe wheels rotation axles, which are LEGO axles. On the front wheels, 2 LEGO axles with a length of 39mm have been used using a clamp (LEGO bush) on each wheel. For the    rear wheels we used 2 LEGO axles of 72mm length. A small amount of silicone-teflon type lubricating grease has been placed at each friction-contact point of the axles      with other components.
+- One rubber O-ring on each wheel, outer diameter 68mm and thickness 5mm. It is critical that the o-rings are of a good quality in order to have a good grip with the    track.
    
 **Robot movement**
 
@@ -22,12 +21,11 @@ The steering control is done by a micro servo type motor (MG90s) with metal gear
 
 Three (3) distance sensors, a color sensor, an accelerometer-gyroscope(IMU) and a wide camera are used for the needs of the robot's navigation inside the track:
 
-  •	The front distance sensor: "DFRobot URM09" type ultrasonic distance sensor with power supply tolerance 3.3-5V, detection range 2-500cm and resolution of 1cm. It is   
-    powered by the Arduino Uno's 5V output.
-  •	The left and right distance sensors: "Sharp GP2Y0A21YK" type infrared distance sensors with 4.5-5.5V power supply tolerance and 10-80cm distance detection range.
-  •	The color sensor: "APDS9960" type sensor with voltage supply of 3.3V which communicates with the Arduino using the I2C protocol.
-  •	Accelerometer-gyroscope sensor: “MPU6500” IMU type sensor with 3V-5V operating voltage which communicates with the Arduino using the I2C protocol.
-  •	Camera: “Waveshare Raspberry Pi camera module fisheye lens(m)” camera type sensor with 5MP resolution and 200° viewing angle.
+- The front distance sensor: "DFRobot URM09" type ultrasonic distance sensor with power supply tolerance 3.3-5V, detection range 2-500cm and resolution of 1cm. It is        powered by the Arduino Uno's 5V output.
+- The left and right distance sensors: "Sharp GP2Y0A21YK" type infrared distance sensors with 4.5-5.5V power supply tolerance and 10-80cm distance detection range.
+- The color sensor: "APDS9960" type sensor with voltage supply of 3.3V which communicates with the Arduino using the I2C protocol.
+- Accelerometer-gyroscope sensor: “MPU6500” IMU type sensor with 3V-5V operating voltage which communicates with the Arduino using the I2C protocol.
+- Camera: “Waveshare Raspberry Pi camera module fisheye lens(m)” camera type sensor with 5MP resolution and 200° viewing angle.
 
 (The two sensors that communicate using the I2C protocol are connected to the Arduino through the analog input ports A4 & A5 which have the role of the SDA and SCL ports of the protocol respectively).
 
@@ -56,11 +54,11 @@ We use a "cool white" color Light Emmitting Diode (LED), mounted at the bottom o
 
 Two power sources are used:
 1. A battery pack of 4 AA NiMH batteries in series (capacity 2450mAh) producing a total output voltage of 4.8V and is used for:
-  •	the dc motor controller which powers the robot dc motor 
-  •	the servo motor that helps the robot turn right or left
-  •	the ultrasonic sensor
-  •	the two (2) infrared sensors
-  •	the white led
+- the dc motor controller which powers the robot dc motor 
+- the servo motor that helps the robot turn right or left
+- the ultrasonic sensor
+- the two (2) infrared sensors
+- the white led
   
 For more efficient energy consumption management of the electronic components powered by the above battery array, a relay is used. This relay receives a logic level (5V) activation signal from the digital output port 2 of the Arduino Uno as soon as it starts, thus powering all connected devices to the battery pack. When the robot completes the activity on the track, the Arduino Uno is turned off by the user disconnecting its power cable, so that the relay stops powering these devices.
 
@@ -69,9 +67,9 @@ For more efficient energy consumption management of the electronic components po
 2. A Χiaomi Powerbank (Mi powerbank 3 – 18W) with a total capacity of 10000mAh which exclusively powers the raspberry pi with an operating voltage of 5V via a USB type C cable. 
 
 Notes about the power supply:
-  •	The camera connected to the raspberry pi is powered through the CSI type cable connected to the corresponding port of the raspberry pi.
-  •	The Arduino is powered through the raspberry pi's USB port via a Male-A to Male-B USB cable.
-  •	The MPU6500 and APDS9960 sensors are powered by the 3.3V output of the Arduino Uno.
+- The camera connected to the raspberry pi is powered through the CSI type cable connected to the corresponding port of the raspberry pi.
+-	The Arduino is powered through the raspberry pi's USB port via a Male-A to Male-B USB cable.
+-	The MPU6500 and APDS9960 sensors are powered by the 3.3V output of the Arduino Uno.
 
 **SBC and SCM** 
 
@@ -82,14 +80,14 @@ The Single Board Microcontroller used is the Arduino Uno rev2. The SBM receives 
 **Programming languages**
 
 The Arduino Uno rev2  SBM used in our robot was programmed using the Arduino IDE 1.8.19 integrated programming environment with C++ language. The libraries used for Arduino are:
-  •	I2Cdev.h
-  •	MPU6050_6Axis_MotionApps20.h
-  •	Wire.h
-  •	Servo.h
-  •	Adafruit_APDS9960.h
+-	I2Cdev.h
+-	MPU6050_6Axis_MotionApps20.h
+-	Wire.h
+-	Servo.h
+-	Adafruit_APDS9960.h
 
 Raspberry pi 3 SBC programming was done through Thonny integrated programming environment over Raspberry OS operating system. The programming language used was Python version 3.9.2, using extensively the opencv computer vision library. Other Python used:
-  •	numpy
-  •	cv2 (opencv)
-  •	time
-  •	serial
+-	numpy
+-	cv2 (opencv)
+-	time
+-	serial
