@@ -1,8 +1,10 @@
-Αυτό είναι το τρισδιάστατο μοντέλο του οχήματός μας.
-Τα αντικείμενα που φαίνονται σε πορτοκαλί χρώμα είναι τα διάφορα ηλεκτρομηχανικά στοιχεία που συνδέονται στο σασί. Οι συνδέσεις γίνονται με βίδες m3. Εξαιρείται η κάμερα και όλες οι πλακέτες- μικροελεγκτές που συνδέονται στις επάνω οριζόντια επιφάνεια που χρειάζονται βίδες m2.
-Το μοντέλο μας εκτυπώθηκε σε 3d εκτυπωτή με πλαστικό υλικό τύπου PLA σε ανάλυση 0.2mm.
+**3D model of our vehicle**
 
-Για την κίνηση του οχήματός μας χρησιμοποιήσαμε στον πίσω άξονα το διαφορικό και τον dc κινητήρα μέσα στο περίβλημά τους, από παλιό τηλεκατευθυνόμε όχημα μάρκας NIKKO και κλίμακας 1:14. Έτσι χρειάστηκε να σχεδιάσουμε ειδικό σύνδεσμο για αυτά.
+For the 3D model of the robotic vehicle our team designed we provide a Tinkercad link:
+https://www.tinkercad.com/things/9yAMq0pSZNL?sharecode=_sXb9rJrZYVs0klc9q9PT7ya_PedQpo5IxWunlhXSu0
 
-Ο σύνδεσμος με το τρισιδάστατο μοντέλο του οχήματος είναι:
-3D model tinkdercad link:  https://www.tinkercad.com/things/9yAMq0pSZNL?sharecode=_sXb9rJrZYVs0klc9q9PT7ya_PedQpo5IxWunlhXSu0
+All the 3d design has been made using the online 3D modelling tool www.tinkercad.com.
+
+Parts shown in orange color represent the various electronic and electric devices used for the robot, so they are not need to be printed. Also the lego axles used for the wheels mounting is shown in orange and they are not need to be printed. Everything else shown in different colors should be 3D printed. Parts fixation has been made using mostly m3 and some m2 bolts. The m2 bolts are used only for the parts that are mounted the upper plastic surface like the camera,the SBC and the SBM fixation, the prototype board etc.
+
+PLA plastic seems to be sturdy enough for the 3D printing of the parts and there is no need for other more sophisticated and difficult to 3D print plastic types.  
