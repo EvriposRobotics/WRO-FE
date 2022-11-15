@@ -47,6 +47,10 @@ Finally, these data are processed appropriately (check how many obstacles exist,
 
 When there are no obstacles, the Arduino moves considering only the data from the other sensors (except the camera). 
 
+**Light source**
+
+We use a "cool white" color Light Emmitting Diode (LED), mounted at the bottom of the robot, next to the APDS9960 sensor. The purpose of this LED is to provide a strong light for the color sensor to make precise measurements of the track bottom colors. The led is connected to the power source using a 330 Ohm 1/4 Watt resistor in series as a protection. 
+
 
 **Electric power sources**
 
@@ -56,6 +60,7 @@ Two power sources are used:
   •	the servo motor that helps the robot turn right or left
   •	the ultrasonic sensor
   •	the two (2) infrared sensors
+  •	the white led
   
 For more efficient energy consumption management of the electronic components powered by the above battery array, a relay is used. This relay receives a logic level (5V) activation signal from the digital output port 2 of the Arduino Uno as soon as it starts, thus powering all connected devices to the battery pack. When the robot completes the activity on the track, the Arduino Uno is turned off by the user disconnecting its power cable, so that the relay stops powering these devices.
 
