@@ -1,3 +1,4 @@
-2 Ομαδικές φωτογραφίες
+**Team photos**
 
-1 κανονική και 1 αστεία φωτογραφία
+ - One official team photo
+ - One funny team photo
