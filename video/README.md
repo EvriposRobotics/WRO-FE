@@ -1,1 +1,2 @@
-Στο αρχείο video.md υπάρχει ο σύνδεσμος για το βίντεο youtube που δείχνει το όχημά μας να οδηγεί αυτόνομα.
+The link for the youtube video that demonstrates the autonomous driving capability of our robot is:
+https://youtu.be/4vLlWCQtHGg
