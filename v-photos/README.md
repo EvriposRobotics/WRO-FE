@@ -1,2 +1,9 @@
-φωτογραφίες του οχήματος από κάθε πλευρά του
-(πάνω, κάτω, αριστερά, δεξιά, μπρος, πίσω)
+**Vehicle photos**
+
+6 photos:
+- Left side
+- Right side
+- Front side
+- Back side
+- Up side
+- Bottom side
