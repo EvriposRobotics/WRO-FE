@@ -1,10 +1,10 @@
-Ηλεκτρομηχανικό σχέδιο
+**Electronic/electric components wiring diagram**
 
-Στην εικόνα φαίνονται οι συνδέσεις που πρέπει να γίνουν μεταξύ των ηλεκτρομηχανικών στοιχείων του ρομπότ
+ - Wires in gray color: the USB cables
+ - Wires in purple color: the special caCSI type cable than connects Raspberry Pi 3 to the Raspberry Pi  camera module
+ - Wires in red color: the power lines at 5v and at 4.8v 
+ - Wires in orange color: the power lines at 3.3v
+ - Wires in black color: the ground lines
+ - Wires in the other colors: various signal input-output cables connecting on Arduino Uno
 
-Με γκρι χρώμα απεικονίζονται τα καλώδια τύπου usb.
-Με μωβ χρώμα απεικονίζεται η δύνδεση της κάμερας με το raspberry pi 3 με ειδικό καλώδιο τύπου CSI το οποίο συνδέεται στην ανάλογη θύρα του raspberry pi.
 
-Με κόκκινο χρώμα απεικονίζονται οι συνδέσεις σε τάση (κατά περίπτωση 3.3v ή 5v) ενώ με μαύρο οι συνδέσεις σε γείωση.
-
-Με μπλε και πράσινο χρώμα απεικονίζονται οι συνδέσεις στις ψηφιακές και στις αναλογικές θύρες του arduino.
